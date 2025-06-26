@@ -6,7 +6,6 @@
 El objetivo es simple: encontrar los 8 pares de profes en el menor tiempo y con la menor cantidad de intentos posible.  
 ¡Compite, divertite y conocé más a tus docentes!
 
----
 
 ## Integrantes
 
@@ -16,15 +15,13 @@ El objetivo es simple: encontrar los 8 pares de profes en el menor tiempo y con 
 - Sofía Storero  
 - Natan Marco del Pont  
 
----
 
-## 🛠️ Áreas de trabajo
+## Áreas de trabajo
 
 - **Francisco y Pedro**: Creación de la API  
 - **Sofía, Uma, Pedro y Francisco**: Desarrollo web (HTML, CSS, JavaScript)  
 - **Natan**: Diseño de imágenes  
 
----
 
 ## Tecnologías implementadas
 
@@ -33,9 +30,8 @@ El objetivo es simple: encontrar los 8 pares de profes en el menor tiempo y con 
 - **Visual Studio Code**: Entorno de desarrollo  
 - **Postimages**: Hosting de imágenes con enlaces públicos para la API  
 
----
 
-## 💻 Lenguajes utilizados
+## Lenguajes utilizados
 
 - HTML  
 - CSS  
