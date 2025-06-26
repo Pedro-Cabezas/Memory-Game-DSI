@@ -1,20 +1,42 @@
-# Memory-Game-DSI
-Presentación del proyecto:
-Encuentra al Profe es un juego de memoria creado con la intención de conocer a los profes y ejercitar la memoria, es un juego de competencia donde el que encuentra los 8 pares de profes en el menor tiempo posible gana.
+# Memory-Game-DSI - *Encuentra al Profe*
 
-Integrantes:
-Pedro Cabezas, Uma Lorenzo, Francisco Farias, Sofia Storero y Natan Marco del Pont.
+## Presentación del proyecto
 
-Áreas de trabajo:
-Francisco y Pedro: Creación de API
-Sofía, Uma, Pedro y Francisco: Creación de página con html, java y css
-Natan: Creación de imágenes. 
+**Encuentra al Profe** es un juego de memoria interactivo que busca fomentar el conocimiento de los profesores de la institución mientras se entrena la memoria visual.  
+El objetivo es simple: encontrar los 8 pares de profes en el menor tiempo y con la menor cantidad de intentos posible.  
+¡Compite, divertite y conocé más a tus docentes!
 
-Tecnologías implementadas:
-Chat GPT: Hacer las imagenes y colaborar con la programacion
-MockAPI: Crear nuestra propia API
-Visual Studio: Para programar el proyecto
-Postimages: Para subir la imagenes y tener un URL que mockAPI pueda leer
+---
 
-Lenguajes utilizados: 
-Html, Java Script y css.
+## Integrantes
+
+- Pedro Cabezas  
+- Uma Lorenzo  
+- Francisco Farías  
+- Sofía Storero  
+- Natan Marco del Pont  
+
+---
+
+## 🛠️ Áreas de trabajo
+
+- **Francisco y Pedro**: Creación de la API  
+- **Sofía, Uma, Pedro y Francisco**: Desarrollo web (HTML, CSS, JavaScript)  
+- **Natan**: Diseño de imágenes  
+
+---
+
+## Tecnologías implementadas
+
+- **ChatGPT**: Generación de imágenes y soporte de programación  
+- **MockAPI**: Creación de la API personalizada  
+- **Visual Studio Code**: Entorno de desarrollo  
+- **Postimages**: Hosting de imágenes con enlaces públicos para la API  
+
+---
+
+## 💻 Lenguajes utilizados
+
+- HTML  
+- CSS  
+- JavaScript  
