@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* fondo oscuro elegante */
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     color: #ffffff;
     text-align: center;
     margin: 0;
@@ -26,6 +26,8 @@ body {
     font-weight: 600;
     color: #e0f7fa;
     text-shadow: 0 0 5px rgba(0,255,255,0.2);
+    flex-wrap: wrap;
+    text-align: center;
   }
   
   button#restartBtn {
@@ -48,17 +50,27 @@ body {
     box-shadow: 0 0 12px rgba(0, 255, 255, 0.3);
   }
   
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(4, 140px);
-    gap: 20px;
-    justify-content: center;
-    margin-top: 40px;
-  }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        justify-content: center;
+        margin-top: 40px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+      }
+      
+      @media (max-width: 480px) {
+        .grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
   
   .card {
-    width: 140px;
-    height: 140px;
+    width: 100%;
+    aspect-ratio: 1 / 1;
     perspective: 900px;
     border-radius: 15px;
     overflow: hidden;
@@ -196,5 +208,34 @@ body {
   #leaderboard td {
     background-color: rgba(255, 255, 255, 0.05);
     color: #e0f7fa;
+  }
+  
+  /* 🔁 Media query para mejorar experiencia en móviles */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .info-bar {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    button#restartBtn {
+      font-size: 1rem;
+      padding: 10px 20px;
+    }
+  
+    .grid {
+      gap: 12px;
+    }
+  
+    .card-front {
+      font-size: 1.5rem;
+    }
+  
+    .card-back div {
+      font-size: 12px;
+    }
   }
   
